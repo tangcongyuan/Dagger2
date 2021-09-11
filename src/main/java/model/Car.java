@@ -1,6 +1,10 @@
 package model;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Car implements Vehicle {
+    public static final Logger logger = LogManager.getLogger(Car.class);
     private final Engine engine;
 
     public Car(final Engine engine) {
@@ -9,6 +13,6 @@ public class Car implements Vehicle {
 
     @Override
     public void run() {
-        System.out.println("Car runs!");
+        logger.info("Car runs!");
     }
 }
