@@ -8,5 +8,6 @@ public class CarComponentTest {
     public void CarInitializationTest() {
         Vehicle vehicle = DaggerVehicleComponent.create().provideVehicle();
         Assert.assertNotNull(vehicle);
+        Assert.assertEquals(vehicle.getClass(), Car.class);
     }
 }
