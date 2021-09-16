@@ -1,6 +1,8 @@
-package model;
+package component;
 
 import dagger.Component;
+import model.Vehicle;
+import module.VehicleModule;
 
 import javax.inject.Singleton;
 

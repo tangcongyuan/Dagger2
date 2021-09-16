@@ -1,5 +1,7 @@
-package model;
+package component;
 
+import model.Car;
+import model.Vehicle;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 package dagger;
 
-import model.DaggerVehicleComponent;
+import component.DaggerVehicleComponent;
 import model.Vehicle;
 
 public class Entry {
